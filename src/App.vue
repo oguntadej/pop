@@ -52,7 +52,7 @@ export default {
       const uri = 'https://api.airtable.com/v0/appE7rDWQTMztAodU/Books';
       const token = process.env.VUE_APP_AIRTABLE_TOKEN;
       axios.get(uri, { headers: { Authorization: `Bearer ${token}` }, params: { fields: ['Title'], filterByFormula: 'AND({Status} = "Reading")' } })
-        .then((response) => { this.book = response.data; }).catch(error => (console.log(token)));
+        .then((response) => { this.book = response.data; }).catch(error => (console.log(error)));
     },
   },
   computed: {
