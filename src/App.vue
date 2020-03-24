@@ -1,13 +1,10 @@
 <template>
   <div id="app">
    <div class="container">
-     <div class="row my-5">
+     <div class="row my-5 justify-content-center">
        <h1 class="col-md-12 display-4 py-4 font-weight-bold">Hello, I'm Joshua,
-         <small>I build products for the web.</small></h1>
+         <small>I'me, I do me and I chill.</small></h1>
        <div class="col-md-6 py-5 about">
-         <p>
-          I'me, I do and I chill - <a href="https://twitter.com/KDTrey5">KDTrey5</a>
-         </p>
          <p>
            These days, I am working on engineering,
            product development and business strategy at
@@ -19,9 +16,6 @@
          <p><span v-if="book.records">I'm reading
            <i class="font-weight-bold">{{currentlyReading}}</i> at the moment.</span>
            Feel free to check out <a href="https://airtable.com/shrLvsksJPIW2H9ST" target="_blank">my library.</a> </p>
-       </div>
-       <div class="col-md-3 pt-5">
-         <iframe src="https://open.spotify.com/embed/user/jogunt/playlist/3MyW890R8ovmBFNGUiAd4s" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
        </div>
      </div>
    </div>
