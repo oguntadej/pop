@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-   <div class="container">
-     <div class="row my-5 justify-content-center">
+   <div class="container justify-content-center">
+     <div class="row my-5">
        <h1 class="col-md-12 display-4 py-4 font-weight-bold">Hello, I'm Joshua,
          <small>I'me, I do me and I chill.</small></h1>
        <div class="col-md-6 py-5 about">
