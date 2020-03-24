@@ -4,16 +4,9 @@
      <div class="row my-5">
        <h1 class="col-md-12 display-4 py-4 font-weight-bold">Hello, I'm Joshua,
          <small>I build products for the web.</small></h1>
-       <div class="col-md-3 pt-5 text-center">
-         <img src="./assets/portrait.jpg" class="img-fluid portrait">
-      </div>
        <div class="col-md-6 py-5 about">
          <p>
-           With my background in engineering, I'm a systems thinker that
-           naturally gravitates towards strategy and product problems.
-           For now, however, I'm focusing on fine-tuning my craft
-           skills — crafting digital experiences that help people using various
-           tools and languages such as PHP, Javascript and Ruby.
+          I'me, I do and I chill - <a href="https://twitter.com/KDTrey5">KDTrey5</a>
          </p>
          <p>
            These days, I am working on engineering,
@@ -21,8 +14,7 @@
            Pennysmart, a digital saving platform for African millennials.
          </p>
          <p>
-           I can generally be found listening to an unhealthy amount of music,
-           reading on various subjects, or trying to be <i class="font-weight-bold">JAY Z</i> cool.
+           I can generally be found listening to an unhealthy amount of music and reading on various subjects.
          </p>
          <p><span v-if="book.records">I'm reading
            <i class="font-weight-bold">{{currentlyReading}}</i> at the moment.</span>
